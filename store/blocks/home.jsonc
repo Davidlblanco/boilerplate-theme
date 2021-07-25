@@ -11,8 +11,17 @@
       "rich-text",
       "rich-text#02",
       "rich-text#03",
-      "newsletter-form"
+      "newsletter-form",
+      "search-result-layout.customQuery#home"
     ]
+  },  
+  "search-result-layout.customQuery#home": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    }
   },
   "rich-text": {
     "props": {
