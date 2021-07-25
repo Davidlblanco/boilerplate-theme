@@ -1,0 +1,11 @@
+.newsletterForm {
+  padding: 60px 20%;
+  background: #79c300;
+}
+.emailInputContainer,
+.formSubmitContainer {
+  margin: 10px 0;
+}
+.newsletter-submit {
+  background: black;
+}

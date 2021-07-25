@@ -1,15 +1,94 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
-      "rich-text"
+      "rich-text",
+      "rich-text#02",
+      "rich-text#03",
+      "video#background",
+      "image#example",
+      "info-card",
+      "info-card#02",
+      "rich-text",
+      "rich-text#02",
+      "rich-text#03",
+      "newsletter-form"
     ]
   },
-  "rich-text": { 
-    "props": { 
+  "rich-text": {
+    "props": {
       "text": "VTEX Store Framework",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "font": "t-heading-1"
+      "font": "t-heading-1",
+      "blockClass": "firstTopText"
+    }
+  },
+  "rich-text#02": {
+    "props": {
+      "text": "Loren ipsum",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-2"
+    }
+  },
+  "rich-text#03": {
+    "props": {
+      "text": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "lastTopText"
+    }
+  },
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-email",
+      "newsletter-input-name",
+      "newsletter-submit"
+    ]
+  },
+  "video#background": {
+    "props": {
+      "loop": false,
+      "autoPlay": false,
+      "muted": false,
+      "src": "https://www.youtube.com/watch?v=wygFqZXMIco",
+      "blockClass": "videoEl"
+    }
+  },
+  "image#example": {
+    "props": {
+      "width": "100%",
+      "height": "auto",
+      "src": "https://ironstudios.vteximg.com.br/arquivos/Loja.png",
+      "display": "block"
+    }
+  },
+  "info-card": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
+      "callToActionText": "DISCOVER",
+      "callToActionMode": "link",
+      "callToActionUrl": "/sale/d",
+      "blockClass": ["info-card-example", "blackBack"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#02": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+      "headline": "Vintage Pink",
+      "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
+      "callToActionMode": "button",
+      "callToActionText": "Explore",
+      "callToActionUrl": "/sale/d",
+      "textAlignment": "center"
     }
   }
 }

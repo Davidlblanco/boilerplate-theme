@@ -1,0 +1,13 @@
+.infoCardContainer--blackBack {
+  background: #000000;
+}
+.infoCardHeadline--blackBack,
+.infoCardSubhead--blackBack,
+.infoCardCallActionText--blackBack {
+  color: #fff;
+}
+.imageElement {
+  background: #000;
+  display: block;
+  padding-left: 4px;
+}
