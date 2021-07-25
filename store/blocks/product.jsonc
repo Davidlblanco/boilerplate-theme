@@ -2,7 +2,8 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "flex-layout.row#product-main"
+      "flex-layout.row#product-main",
+      "shelf.relatedProducts"
     ]
   },
   "flex-layout.row#product-breadcrumb":{ 
@@ -72,6 +73,16 @@
         "Pinterest": true
       }
     }
-  }
+  },
+  "shelf.relatedProducts": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+        "recommendation": "view",
+        "productList": {
+            "titleText": "Who saw also saw",
+            "itemsPerPage": 3
+        }
+    }
+}
 
 }
